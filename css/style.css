@@ -1,0 +1,336 @@
+
+
+@font-face{
+    font-family:'Roboto';
+    src: url("../fonts/Roboto-Light.woff");
+    
+} 
+
+
+body{
+    background: linear-gradient(90deg, rgba(255,142,213,1) 0%, rgba(255,110,98,1) 12%, rgba(255,236,134,1) 25%, rgba(198,255,158,1) 38%, rgba(109,255,206,1) 47%, rgba(96,222,255,1) 58%, rgba(196,124,255,1) 70%, rgba(252,176,69,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+.new {
+    font-family: 'Roboto', sans-serif;
+   text-align:center;
+color: white;
+/*    text-shadow: */
+        font-size: 1.5em;
+}
+
+
+p{width: 65vw;
+    margin-top: 10vh;
+    margin: 0 auto;
+}
+
+
+
+.hello-one{
+    font-size: 20em;
+    color:rgb(0, 255, 247);
+/*    margin-left: 10vw;*/
+}
+
+
+
+.cuteButton{
+    width: 20vw
+    height: 10vh
+    background-color:dark;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255,142,213,1) 0%, rgba(255,110,98,1) 12%, rgba(255,236,134,1) 25%, rgba(198,255,158,1) 38%, rgba(109,255,206,1) 47%, rgba(96,222,255,1) 58%, rgba(196,124,255,1) 70%, rgba(252,176,69,1) 100%);    
+}
+
+.space{
+    padding-top: 3vh;
+    margin: 1vh 0 1vh 0;}
+
+#menu{
+    background: #c494f7;
+    flex: 0.5;
+    display: flex;
+}
+
+
+            .new{
+                flex:1;
+                text-align: center;
+            }
+
+#main{
+    background: radial-gradient(circle, rgba(194,246,255,1) 0%, rgba(255,197,253,1) 50%, rgba(47,179,255,1) 100%);
+
+    flex: 1;
+    color: #ff87e7;
+    text-align: center;
+    text-shadow: 5px 5px white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+
+
+#box-1{
+    background: #94f7b5;
+    flex: 1;
+    color: #19B970;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#box-2{
+    background: #a1deff;
+    flex: 1;
+    color: #168CAA;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#box-3{
+    background: #fab189;
+    flex: 1;
+    color: #F68216;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#box-4{
+    background: #c494f7;
+    flex: 1;
+    color: #582DBC;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.straw-ki{
+    position: absolute;
+    top: 0vh; 
+/*    display: none;*/
+}
+
+.straw-ki img{
+    width: 100vw;
+}
+
+.straw-ki p{
+    font-family:'Roboto';
+    position: absolute;
+    top: 70vh;
+    left: 18vw;
+    font-size: 3em;  
+    text-align: center;
+}
+.bluerazz p{
+    font-family:'Roboto';
+    position: absolute;
+    top: 70vh;
+    left: 18vw;
+    font-size: 3em; 
+    text-align: center;
+    
+}
+.peach p{
+    font-family:'Roboto';
+    position: absolute;
+    top: 70vh;
+    left: 18vw;
+    font-size: 3em; 
+    text-align: center;
+    
+}
+.grape p{
+    font-family:'Roboto';
+    position: absolute;
+    top: 70vh;
+    left: 18vw;
+    font-size: 3em; 
+    text-align: center;
+    
+}
+
+.ex-straw{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    background-color: pink;
+    padding: 0.5em;
+}
+.ex-razz{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    background-color: skyblue;
+    padding: 0.5em;
+    z-index: 1000;
+}
+
+.bluerazz img{
+    width: 100vw;
+}
+/*this is for the pop over for razberry*/
+.imageRazz{
+    position: absolute;
+    top: 0vh;
+}
+
+.imageRazz img{
+    width: 100vw;
+    
+}
+
+.ex-peach{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    background-color: lavender;
+    padding: 0.5em;
+    z-index: 1000;
+}
+.peach img{
+    width: 100vw;
+}
+.imagepeach{
+  position: absolute;
+    top: 0vh;  
+}
+
+
+.ex-grape{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    background-color: plum;
+    padding: 0.5em;
+    z-index: 1000;
+}
+.grape img{
+    width: 100vw;
+}
+.imagegrape{
+  position: absolute;
+    top: 0vh;  
+}
+
+
+
+
+
+.imageRazz img{
+    width: 100vw;
+}
+
+}
+.imagestar1{
+    position: absolute;
+    top:10vh;
+    left:100vw;
+}
+.imagestar2{
+    position: absolute;
+    top:10vh;
+    left:1vw;
+}
+.imagestar3{
+    position: absolute;
+    top:40vh;
+    left:85vw;
+}
+.imagestar4{
+    position: absolute;
+    top:0vh;
+    left:68vw;
+}
+.imagestar5{
+    position: absolute;
+    top:50vh;
+    left:25vw;
+}
+.imagestar6{
+    position: absolute;
+    top:80vh;
+    left:5vw;
+}
+
+.imagestar7{
+    position: absolute;
+    top:70vh;
+    left:60vw;
+}
+.imagestar8{
+    position: absolute;
+    top:95vh;
+    left:80vw;
+}
+.imagestar9{
+    position: absolute;
+    top:99vh;
+    left:15vw;
+}
+footer {
+  display: block;
+color: lightcoral;
+    text-align: center;
+    background: radial-gradient(circle, rgba(194,246,255,1) 0%, rgba(255,197,253,1) 50%, rgba(47,179,255,1) 100%);
+    width: 99vw;
+    height: 10vh;
+    font-size: 2em;
+    margin-top: 3vh;
+    padding: 6vh;
+    text-align: center;
+}
+
+
+
+#green{
+position: absolute
+}
+
+
+
+
+@media screen and (min-width: 576px){
+    h1
+    
+}
+  
+
+@media screen and (min-width: 768px){
+ 
+    
+}
+
+
+@media screen and (min-width: 992px){
+
+    
+}
+
+
+@media screen and (min-width: 1200px){
+ 
+    
+}
+
+
+@media screen and (min-width: 1400px){
+
+    
+}
+
+
+
+
+
